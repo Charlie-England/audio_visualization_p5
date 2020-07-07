@@ -26,7 +26,7 @@ function setup() {
     // song = loadSound('thisdot.wav', loaded);
     // song = loadSound('chad_crouch_algo.mp3', loaded);
     // song = loadSound('Komiku_broadswords.mp3', loaded);
-    song = loadSound('Scott_Holmes_04_Upbeat_Party.mp3', loaded);
+    song = loadSound("audio\\Bisou_-_09_-_Panda.mp3", loaded);
     sliderRate = createSlider(.5, 1.5, 1, .01);
     sliderVolume = createSlider(0, 1, .5, .01);
     fft = new p5.FFT();
