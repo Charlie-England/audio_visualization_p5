@@ -8,7 +8,7 @@ let volHistory = [];
 function setup() {
   createCanvas(400,400);
   angleMode(DEGREES);
-  song = loadSound('Komiku_broadswords.mp3', loaded)
+  song = loadSound('audio/Bisou_-_09_-_Panda.mp3', loaded)
   sliderRate = createSlider(.5, 1.5, 1, .01);
   sliderVolume = createSlider(0, 1, .5, .01);
   amp = new p5.Amplitude();

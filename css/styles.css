@@ -6,4 +6,6 @@ body {
 
 .p5Canvas {
     background-color: blue;
+    margin-left: 40px;
+    margin-top: 40px;
 }
